@@ -1,11 +1,11 @@
 import { Switch, Route, BrowserRouter as Router, NavLink, Redirect } from "react-router-dom";
-import { useState } from "react";
 import Principal from "./paginas/Principal";
 import Noticia from "./paginas/Noticia";
 import Equipo from "./paginas/Equipo";
-
 import Navegacion from "./components/Navegacion";
 import Footer from "./components/Footer";
+
+import datosNoticias from "./noticias.json";
 
 
 function App() {
@@ -30,7 +30,6 @@ function App() {
       </main>
       <Footer />
     </Router>
-
   );
 }
 
