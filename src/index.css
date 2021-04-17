@@ -1,5 +1,28 @@
+* {
+	box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  display: flex;
+  align-items: stretch;
+}
+
 .pie , .navegacion {
   display: flex;
+}
+
+.navegacion {
+  align-items: center;
+}
+
+.pie{
+  width: 100vw;
+  flex-direction: row-reverse;
 }
 
 .pie, .enlaces{
@@ -7,15 +30,21 @@
 }
 
  .logo{
-  height: 40px;
-  width: 40px;
+   flex-grow: 1;
+  margin: 10px;
+  height: 80px;
+  width: 80px;
  }
 
 .enlaces{
-  width: 8git0%;
+  margin: 0 20px 0 20px;
   justify-content: center;
-  vertical-align: middle;
-  border-radius: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-grow: 4;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .enlaces a {
@@ -27,6 +56,7 @@
 }
 
 .iconos{
+  margin: 10px;
   height: 40px;
   width: 40px;
 }

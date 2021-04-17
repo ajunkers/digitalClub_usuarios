@@ -1,0 +1,106 @@
+[
+  {
+    "_id": {
+      "$oid": "60781d7645f8024ddcfe1857"
+    },
+    "img": {
+      "link": "link a img 2",
+      "Alt": "Alt de img 2"
+    },
+    "create_add": 0,
+    "texto": "Ayer por la tarde la policia encontró al joven programador Jonathan deambulando descalzo por una finca rural de Reus. El alumo presentaba evidentes signos de conmoción y desorientación. Declaró que el curso de javascript ha acabado con su salud",
+    "titulo": "Programador del curso Javascript con React sufre una crisis",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "60781bf9d674b8867d83ed2f"
+    },
+    "img": {
+      "link": "link a img 1",
+      "Alt": "Alt de img 1"
+    },
+    "create_add": 0,
+    "texto": "La histeria cunde, los jugadores del Fundasplai Code Club  se aproximan lentamente al momento en que deberan abrir sus alas y volar. Se acerca el tan soñado momento en el que podran descansar sus encallecidos dedos y cerebros tras horas y horas de picar código. Los jovenes declaran excitados que podran ver la luz del sol, y que tienen ganas de ver a sus familias. ",
+    "titulo": "Los jovenes jugadores de Fundasplai se acercan a su deadline",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "607820d427a9f440fc51393e"
+    },
+    "img": {
+      "link": "link a img 3",
+      "Alt": "Alt de img 3"
+    },
+    "create_add": 0,
+    "texto": "La clase de javascript de mañanas tiene nueva mascota. El gatete del vecino de fundasplai, más conocido como el gatete trepador, ha enamorado a toda la clase de Javascript con React. Los alumos aseguran que sus esporádicas apariciones en la ventana 'son un pequeño rayo de luz entre tanta osucidad'",
+    "titulo": "Enamorados de un gatete",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "607828a012149354b053345e"
+    },
+    "img": {
+      "link": "link a img 4",
+      "Alt": "Alt de img 4"
+    },
+    "create_add": 0,
+    "texto": "Escándalo mayúsculo en la clase de Javascript de tardes. Se ha detectado un consumo masivo de cafeina entre los alumnos. Al ser preguntado por la policia, el profesor Mariogl ha declarado no saber de que se habla y ha dicho que él ni prueba el café. Actualmente la investigación está en manos de la brigada de narcóticos y se encuentra bajo secreto de sumario.  ",
+    "titulo": "El café provoca una plaga de adicciones en clase",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "6078b33f13caca51642ba472"
+    },
+    "img": {
+      "link": "link a img 5",
+      "Alt": "Alt de img 5"
+    },
+    "create_add": 0,
+    "texto": "Una grave situación asola las aulas de Fundasplai. Corren tiempos de pandemia y las visitas a empresas (e incluso muchas clases) deben realizarse por videollamada, hecho que provoca que los microfonos y altavoces se acoplen e impidan la espontániedad y la libre participacion. Des de la fundacion confirman que son tiempos aciagos.",
+    "titulo": "Pitidos y acoples, la maldición de los microfonos y zoom",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "6078b3e513caca51642ba473"
+    },
+    "img": {
+      "link": "link a img 6",
+      "Alt": "Alt de img 6"
+    },
+    "create_add": 0,
+    "texto": "La clase de javascript de tardes pasa por momentos dificiles. Una intervencion de un individuo de una empresa que les ofrecía trabajar gratis y a cambio de visibilidad les ha hecho darse cuenta que el mundo es un sitio cruel e inhóspito, y que las empresas tienen una peligrosa tendencia a querer apoderarse de nuestra alma. No obstante, no se dejan hundir y, lejos de trabajar gratis, 'en el futuro quieren ganar buenos sueldos' han declarado a este medio.",
+    "titulo": "Una visita a empresa deja hundidos unos pobres chavales",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "6078b56813caca51642ba476"
+    },
+    "img": {
+      "link": "link a img 7",
+      "Alt": "Alt de img 7"
+    },
+    "create_add": 0,
+    "texto": "Actualmente, el curso de javascript cuenta tan solo con 10 alumnos, lo que lo acerca peligrosamente a la zona de descenso. La preocupacion en los vestuarios crece a medida que se acerca el dia de las presentaciones clasificatórias. Las sensaciones generales de los asistentes al curso, no obstante, son buenas. 'Vamos a partirlo gente' comentan en los descansos",
+    "titulo": "El curso se encuentra a pocas bajas del descenso",
+    "update_add": 0
+  },
+  {
+    "_id": {
+      "$oid": "6078b57113caca51642ba477"
+    },
+    "img": {
+      "link": "link a img 8",
+      "Alt": "Alt de img 8"
+    },
+    "create_add": 0,
+    "texto": "El cuerpo sin vida de un alumno ha sido hallado entre la frondosa vegetación dels Jardins del Forat de la Vergonya. Sus compañeros del curso de Javascript cuentan que preguntó tres veces en una misma clase como usar el módulo npm Kill de node, hecho que podria haber llevado a su asesinato en manos de un profesor desquiciado. La fundasplay ha rechazado hacer comentarios al respecto",
+    "titulo": "Asesinado por el NPM Kill",
+    "update_add": 0
+  }
+]
