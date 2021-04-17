@@ -1,14 +1,14 @@
-const Navbar = () => {
+const Navegacion = () => {
 
   return (
     <nav className="navegacion">
-      <a href=""><img src="" alt="logo Club" /></a>
+      <a href="/"><img src="../logo.png" className="logo" alt="logo Club" /></a>
+
       <span className="enlaces">
         <a href="">Noticias</a>
         <a href="">Equipos</a>
-        {/* <a href="">Contacta</a> */}
       </span>
     </nav>
   );
 };
-export default Navbar;
+export default Navegacion;
