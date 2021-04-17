@@ -2,12 +2,12 @@ const Navbar = () => {
 
   return (
     <nav className="navegacion">
-      <ul>
-        <li><a href=""><img src="" alt="logo Club" /></a></li>
-        <li><a href="">Noticias</a></li>
-        <li><a href="">Equipos</a></li>
-        {/* <li><a href="">Contacta</a></li> */}
-      </ul>
+      <a href=""><img src="" alt="logo Club" /></a>
+      <span className="enlaces">
+        <a href="">Noticias</a>
+        <a href="">Equipos</a>
+        {/* <a href="">Contacta</a> */}
+      </span>
     </nav>
   );
 };
