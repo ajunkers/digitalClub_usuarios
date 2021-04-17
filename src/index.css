@@ -9,6 +9,7 @@ body {
 
 .contenido {
   display: flex;
+  flex-direction: column;
   align-items: stretch;
 }
 
@@ -21,7 +22,6 @@ body {
 }
 
 .pie{
-  width: 100vw;
   flex-direction: row-reverse;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
  .logo{
-   flex-grow: 1;
+  flex-grow: 1;
   margin: 10px;
   height: 80px;
   width: 80px;
@@ -56,7 +56,7 @@ body {
 }
 
 .iconos{
-  margin: 10px;
+  margin: 20px 30px 20px 30px;
   height: 40px;
   width: 40px;
 }
