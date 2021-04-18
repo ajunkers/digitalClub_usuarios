@@ -1,5 +1,4 @@
 import { Switch, Route, BrowserRouter as Router, NavLink, Redirect } from "react-router-dom";
-import { useContext } from "react";
 import Principal from "./paginas/Principal";
 import Noticia from "./paginas/Noticia";
 import Equipo from "./paginas/Equipo";
@@ -28,7 +27,7 @@ function App() {
               <Noticia />
             </Route>
             <Route path="/equipo/:id">
-              <Equipo />
+              {/* <Equipo /> */}
             </Route>
             <Route path="/" exact>
               <Redirect to="/principal" />

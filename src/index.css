@@ -29,7 +29,7 @@ body {
   background-color: #562381;
 }
 
- .logo{
+.logo{
   flex-grow: 1;
   margin: 10px;
   height: 80px;
