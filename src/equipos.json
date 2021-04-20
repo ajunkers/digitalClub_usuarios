@@ -1,0 +1,36 @@
+{
+  "total": 1,
+  "datos": [
+    {
+      "staff": [
+        "607b635d7d70a26e200226bd",
+        "607b638b7d70a26e200226be",
+        "607b63c27d70a26e200226bf",
+        "607df93c95571e5ff4604b56",
+        "607df93d95571e5ff4604b57"
+      ],
+      "jugadores": [
+        "607b6b73c2c0980bc40f93d1",
+        "607b6bb8c2c0980bc40f93d2",
+        "607b6c32335b8e1e20080f12",
+        "607df3c5c859b85ba06b0f43",
+        "607df3d0c859b85ba06b0f44",
+        "607df4154f03e106448e2b31",
+        "607dfa0984304a61bc3eb506",
+        "607e000bac696f4fe443d530",
+        "607e000fac696f4fe443d531",
+        "607e0012ac696f4fe443d532",
+        "607e88205bacb83450308275"
+      ],
+      "_id": "607c5f3eaf096c5cc81578d5",
+      "nombre": "Full Stack Developers - Tardes ",
+      "img": {
+        "link": "https://media-exp1.licdn.com/dms/image/C4D22AQFWJqN0Oe2LBA/feedshare-shrink_800/0/1618576112964?e=1621468800&v=beta&t=xxk-U8vDjxq4jM8MOicR9M37-Sr_E-BhxgFTwXf0Grs",
+        "alt": "foto de la clase de javascript"
+      },
+      "created_at": "2021-04-18T16:33:02.768Z",
+      "updated_at": "2021-04-20T07:52:00.789Z",
+      "__v": 0
+    }
+  ]
+}

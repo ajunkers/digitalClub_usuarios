@@ -2,10 +2,8 @@ import '../estilos/noticias.css';
 import { useContext } from "react";
 import NoticiasContext from "../context/NoticiasContext";
 import { useParams } from 'react-router';
-import { useHistory } from 'react-router-dom';
 
 const Noticia = () => {
-  let history = useHistory();
   const { id } = useParams();
   const { datosNoticias } = useContext(NoticiasContext);
 

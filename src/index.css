@@ -47,16 +47,43 @@ body {
   justify-content: space-evenly;
 }
 
-.enlaces a {
+.enlaces .principal a {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
   font-weight: bold;
   padding: 10px;
 }
+.enlaces .principal {
+  list-style: none;
+}
 
 .iconos{
   margin: 20px 30px 20px 30px;
   height: 40px;
   width: 40px;
+}
+
+.submenu {
+  position: relative;
+  display: inline-block;
+}
+
+.submenu-content a {
+  display: none;
+  position: absolute;
+  background-color: #562381;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.enlaces .principal .submenu-content a {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.submenu:hover .submenu-content a {
+  display: block;
 }
