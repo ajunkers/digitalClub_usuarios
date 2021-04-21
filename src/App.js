@@ -1,4 +1,4 @@
-import { Switch, Route, BrowserRouter as Router, NavLink, Redirect } from "react-router-dom";
+import { Switch, Route, BrowserRouter as Router, Redirect } from "react-router-dom";
 
 import Principal from "./paginas/Principal";
 import Noticia from "./paginas/Noticia";
@@ -8,19 +8,27 @@ import Footer from "./components/Footer";
 import NoticiasContext from "./context/NoticiasContext";
 import EquiposContext from "./context/EquiposContext";
 import NoEncontrada from "./paginas/NoEncntrada";
-import datosNoticias from "./noticias.json";
-import datosEquipos from "./equipos.json";
-
+import { useEffect } from "react";
+import useFetch from "./hooks/useFetch";
 
 function App() {
+  const { datos: noticias, pedirDatos: pedirNoticias } = useFetch();
+  useEffect(() => {
+    pedirNoticias("https://digitalclub.herokuapp.com/noticias");
+  }, [pedirNoticias]);
+
+  const { datos: equipos, pedirDatos: pedirEquipos } = useFetch();
+  useEffect(() => {
+    pedirEquipos("https://digitalclub.herokuapp.com/equipos");
+  }, [pedirEquipos]);
 
 
   return (
     <Router>
-      <EquiposContext.Provider value={{ datosEquipos }}>
+      <EquiposContext.Provider value={{ equipos }}>
         <Navegacion />
         <main>
-          <NoticiasContext.Provider value={{ datosNoticias }}>
+          <NoticiasContext.Provider value={{ noticias }}>
             <Switch>
               <Route path="/principal" exact>
                 <Principal />
@@ -29,9 +37,12 @@ function App() {
                 <Noticia />
               </Route>
               <Route path="/equipo/:id">
-                {/* <Equipo /> */}
+                <Equipo />
               </Route>
               <Route path="/" exact>
+                <Redirect to="/principal" />
+              </Route>
+              <Route path="/noticias" >
                 <Redirect to="/principal" />
               </Route>
               <Route path="/NotFound">

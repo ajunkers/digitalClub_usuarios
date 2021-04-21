@@ -40,6 +40,8 @@ body {
   margin: 0 20px 0 20px;
   justify-content: center;
   border-radius: 10px;
+  height: 40px;
+  max-height: 40px;
 
   display: flex;
   flex-grow: 4;
@@ -47,7 +49,7 @@ body {
   justify-content: space-evenly;
 }
 
-.enlaces .principal a {
+.enlaces .principal .link {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -66,24 +68,32 @@ body {
 
 .submenu {
   position: relative;
-  display: inline-block;
 }
 
-.submenu-content a {
-  display: none;
-  position: absolute;
-  background-color: #562381;
-  min-width: 400px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+.submenu-content{
   padding: 12px 16px;
-  z-index: 1;
 }
 
-.enlaces .principal .submenu-content a {
+.submenu-content .equipo {
+  display: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  background-color: #562381;
+ /* min-width: 200px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+
+}
+
+.enlaces .principal .submenu-content .equipo {
   font-size: 14px;
   font-weight: normal;
 }
 
-.submenu:hover .submenu-content a {
-  display: block;
+.submenu:hover .submenu-content .equipo {
+  display: flex;
+}
+
+.equipo:hover {
+  background-color: #663391;
 }
