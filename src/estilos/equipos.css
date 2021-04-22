@@ -1,0 +1,92 @@
+.equipo {
+  background-color: #A7062E;
+  border-radius: 10px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+article{
+  margin: 20px 60px 20px 60px;
+  padding: 30px;
+  border: solid #AFAFAF 1px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgEquipo{
+  margin: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.jugadores h2, .staff h2 {
+  background-color: #A7062E;
+  border-radius: 10px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+article .columna {
+  padding: 10px;
+}
+table {
+  margin: 20px;
+   border-spacing: 0;
+}
+
+.nombre{
+  width: 35%;
+}
+.rol {
+  width: 45%;
+}
+.dorsal {
+  width: 20%;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px 20px 5px 20px;
+  border-bottom: 1px solid #AFAFAF;
+}
+
+td {
+  font-size: 14px;
+}
+
+td.rol, td.nombre {
+  text-align: left;
+}
+
+@media screen and (min-width: 980px) {
+  .columnas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  article .columna {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .colJugadores{
+    margin-top: 20px;
+  }
+
+}
+

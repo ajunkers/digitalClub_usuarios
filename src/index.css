@@ -74,7 +74,7 @@ body {
   padding: 12px 16px;
 }
 
-.submenu-content .equipo {
+.submenu-content .submenuEquipo {
   display: none;
   text-decoration: none;
   color: #fff;
@@ -85,15 +85,15 @@ body {
 
 }
 
-.enlaces .principal .submenu-content .equipo {
+.enlaces .principal .submenu-content .submenuEquipo {
   font-size: 14px;
   font-weight: normal;
 }
 
-.submenu:hover .submenu-content .equipo {
+.submenu:hover .submenu-content .submenuEquipo {
   display: flex;
 }
 
-.equipo:hover {
+.submenuEquipo:hover {
   background-color: #663391;
 }
