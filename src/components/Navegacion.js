@@ -16,7 +16,7 @@ const Navegacion = () => {
             {equipos ?
               equipos.datos.map(equipo =>
 
-                <a key={equipo["_id"]} href={`/equipo/${equipo["_id"]}`} className="equipo">{equipo.nombre}</a>
+                <a key={equipo["_id"]} href={`/equipo/${equipo["_id"]}`} className="submenuEquipo">{equipo.nombre}</a>
 
               ) : ""
             }
