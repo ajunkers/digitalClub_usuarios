@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams } from "react-router";
+import { useHistory, useParams } from "react-router";
 import useFetch from "../hooks/useFetch";
 import '../estilos/equipos.css';
 import EquipoContext from "../context/EquipoContext";
@@ -11,14 +11,19 @@ const Equipo = () => {
   const { datos: equipo, pedirDatos: pedirEquipo } = useFetch();
   const url = `https://digitalclub.herokuapp.com/equipos/equipo/${id}`;
 
+  let history = useHistory();
+  const volver = e => {
+    history.push("/");
+  };
+
   useEffect(() => {
     pedirEquipo(url);
   }, [url, pedirEquipo]);
 
-
   return (
     <>
       < EquipoContext.Provider value={{ equipo }}>
+        <span className="volver" onClick={volver}>Volver </span>
         {equipo ?
           <article>
             <h1 className="equipo">{equipo.nombre}</h1>

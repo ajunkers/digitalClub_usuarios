@@ -20,7 +20,7 @@ article{
   align-items: center;
 }
 
-.mas:hover, .imagen:hover, .tituloNoticia:hover {
+.mas:hover, .imagen:hover, .tituloNoticia:hover, .volver:hover{
   cursor: pointer;
 }
 
@@ -32,8 +32,7 @@ article{
   justify-content: center;
 }
 
-
-.mas{
+.mas, .volver{
    align-self: flex-end;
    width: 120px;
    padding: 5px;
@@ -41,6 +40,11 @@ article{
    border: solid #888 1px;
    color: #fff;
    border-radius: 10px;
+}
+
+.volver {
+  text-align: center;
+  margin-right: 20px;
 }
 
 .tituloNoticia{
