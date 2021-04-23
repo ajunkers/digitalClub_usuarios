@@ -12,7 +12,7 @@ const Navegacion = () => {
 
         <span className="navPrincipal"><a href="/" className="link">Noticias</a></span>
         <span className="navPrincipal submenu"><span className="link">Equipos</span>
-          <span className="submenuContent"  >
+          <div className="submenuContent">
             {equipos ?
               equipos.datos.map(equipo =>
 
@@ -20,7 +20,7 @@ const Navegacion = () => {
 
               ) : ""
             }
-          </span>
+          </div>
         </span>
       </span>
     </nav>
