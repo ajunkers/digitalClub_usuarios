@@ -33,12 +33,12 @@ body {
   flex-grow: 1;
   margin: 10px;
   height: 80px;
-  width: 80px;
+  width: auto;
  }
 
 .enlaces{
   margin: 0 20px 0 20px;
-  justify-content: center;
+  justify-content: space-evenly;
   border-radius: 10px;
   height: 40px;
   max-height: 40px;
@@ -46,17 +46,21 @@ body {
   display: flex;
   flex-grow: 4;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
 }
 
-.enlaces .principal .link {
+.enlaces .navPrincipal .link {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
   font-weight: bold;
   padding: 10px;
 }
-.enlaces .principal {
+
+.navPrincipal{
+  align-items: center;
+}
+
+.enlaces .navPrincipal {
   list-style: none;
 }
 
@@ -70,30 +74,38 @@ body {
   position: relative;
 }
 
-.submenu-content{
-  padding: 12px 16px;
-}
-
-.submenu-content .submenuEquipo {
+.submenuEquipo {
   display: none;
   text-decoration: none;
   color: #fff;
   padding: 10px;
   background-color: #562381;
- /* min-width: 200px;*/
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
-
-}
-
-.enlaces .principal .submenu-content .submenuEquipo {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   font-size: 14px;
   font-weight: normal;
 }
 
-.submenu:hover .submenu-content .submenuEquipo {
-  display: flex;
+.submenuEquipo:hover{
+display: block;
 }
 
-.submenuEquipo:hover {
+.submenuEquipo:hover, .navPrincipal:hover {
   background-color: #663391;
+}
+/* FIX MENU*/
+
+ .navPrincipal {
+  width: 300px;
+  max-width: 20%;
+  text-align: center;
+}
+
+.submenuEquipo {
+  height: 40px;
+}
+
+.submenuContent {
+  height: 400px;
+  text-align: left;
+  overflow-y: scroll;
 }

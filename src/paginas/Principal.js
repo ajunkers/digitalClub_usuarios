@@ -9,7 +9,7 @@ const Principal = () => {
   let history = useHistory();
 
   const clickNoticia = e => {
-    const path = `/noticia/${e.target.id}`;
+    const path = `/noticia/${e.target.dataset.noticia}`;
     history.push(path);
   };
   /* "https://digitalclub.herokuapp.com/noticias" */
@@ -20,8 +20,8 @@ const Principal = () => {
 
       {noticias ? noticias.datos.map(noticia =>
         <article key={noticia["_id"]}>
-          <h2>{noticia.titulo}</h2>
-          {noticia.img ? <img className="imagen" src={noticia.img.link} alt={noticia.img.Alt} /> : <></>}
+          <h2 className="tituloNoticia" data-noticia={noticia["_id"]} onClick={clickNoticia} >{noticia.titulo}</h2>
+          {noticia.img ? <img data-noticia={noticia["_id"]} onClick={clickNoticia} className="imagen" src={noticia.img.link} alt={noticia.img.Alt} /> : <></>}
           {noticia.texto ? <p>{noticia.texto}</p> : <></>}
           <span className="mas" id={noticia["_id"]} onClick={clickNoticia}>Leer más...</span>
         </article>

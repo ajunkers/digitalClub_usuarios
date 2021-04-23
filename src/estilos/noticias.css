@@ -17,19 +17,21 @@ article{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.mas:hover {
+.mas:hover, .imagen:hover, .tituloNoticia:hover {
   cursor: pointer;
 }
 
 .imagen{
   margin: 20px;
-  max-width: 1920px;
+  max-width: 980px;
   height: auto;
   display: flex;
   justify-content: center;
 }
+
 
 .mas{
    align-self: flex-end;
@@ -41,7 +43,7 @@ article{
    border-radius: 10px;
 }
 
-h2{
+.tituloNoticia{
   font-weight: 700;
   text-align: center;
 }

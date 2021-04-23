@@ -10,9 +10,9 @@ const Navegacion = () => {
 
       <span className="enlaces">
 
-        <span className="principal"><a href="/" className="link">Noticias</a></span>
-        <span className="principal submenu"><span className="link">Equipos</span>
-          <span className="submenu-content"  >
+        <span className="navPrincipal"><a href="/" className="link">Noticias</a></span>
+        <span className="navPrincipal submenu"><span className="link">Equipos</span>
+          <span className="submenuContent"  >
             {equipos ?
               equipos.datos.map(equipo =>
 
