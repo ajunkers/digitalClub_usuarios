@@ -33,6 +33,7 @@ body {
 .logo{
   flex-grow: 1;
   margin: 10px;
+  margin-left: 30px;
   height: 80px;
   width: auto;
  }
@@ -112,8 +113,8 @@ body {
 }
 
 .submenu:hover .submenuEquipo {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .submenuEquipo {
@@ -123,5 +124,5 @@ flex-direction: column;
 .submenuContent{
   max-height: 500px;
   text-align: left;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
