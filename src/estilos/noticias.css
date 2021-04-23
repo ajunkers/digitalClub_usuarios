@@ -33,13 +33,13 @@ article{
 }
 
 .mas{
-   align-self: flex-end;
-   width: 120px;
-   padding: 5px;
-   background-color: #A7062E;
-   border: solid #888 1px;
-   color: #fff;
-   border-radius: 10px;
+  align-self: flex-end;
+  width: 120px;
+  padding: 5px;
+  background-color: #A7062E;
+  border: solid #888 1px;
+  color: #fff;
+  border-radius: 10px;
 }
 
 .tituloNoticia{
@@ -49,4 +49,13 @@ article{
 
 p{
   text-align: justify;
+}
+
+.textoNoticia {
+  margin: 20px 0 20px 0;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
 }

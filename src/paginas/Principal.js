@@ -22,7 +22,7 @@ const Principal = () => {
         <article key={noticia["_id"]}>
           <h2 className="tituloNoticia" data-noticia={noticia["_id"]} onClick={clickNoticia} >{noticia.titulo}</h2>
           {noticia.img ? <img data-noticia={noticia["_id"]} onClick={clickNoticia} className="imagen" src={noticia.img.link} alt={noticia.img.Alt} /> : <></>}
-          {noticia.texto ? <p>{noticia.texto}</p> : <></>}
+          {noticia.texto ? <p className="textoNoticia">{noticia.texto}</p> : <></>}
           <span className="mas" data-noticia={noticia["_id"]} id={noticia["_id"]} onClick={clickNoticia}>Leer más...</span>
         </article>
       ) : "cargando"}
