@@ -23,21 +23,23 @@ const Equipo = () => {
   return (
     <>
       < EquipoContext.Provider value={{ equipo }}>
-        <span className="volver" onClick={volver}>Volver </span>
-        {equipo ?
-          <article>
-            <h1 className="equipo">{equipo.nombre}</h1>
-            <section className="columnas colStaff">
-              <div className="columna">
-                <img className="imgEquipo" src={equipo.img ? equipo.img.link : "../placeholder.png"} alt={equipo.img ? equipo.img.alt : "imagen vacia"} />
-                <ListaStaff />
-              </div>
-              <div className="columna colJugadores">
-                <ListaJugadores />
-              </div>
-            </section>
-          </article>
-          : ""}
+        <div className="contenido">
+          <span className="volver" onClick={volver}>Volver </span>
+          {equipo ?
+            <article>
+              <h1 className="equipo">{equipo.nombre}</h1>
+              <section className="columnas colStaff">
+                <div className="columna">
+                  <img className="imgEquipo" src={equipo.img ? equipo.img.link : "../placeholder.png"} alt={equipo.img ? equipo.img.alt : "imagen vacia"} />
+                  <ListaStaff />
+                </div>
+                <div className="columna colJugadores">
+                  <ListaJugadores />
+                </div>
+              </section>
+            </article>
+            : ""}
+        </div>
       </EquipoContext.Provider>
     </>
   );

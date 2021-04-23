@@ -36,6 +36,20 @@ body {
   width: auto;
  }
 
+ .volver{
+  align-self: flex-end;
+  width: 120px;
+  padding: 5px;
+  background-color: #A7062E;
+  border: solid #888 1px;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+ /* MENU DESPLEGABLE */
+
 .enlaces{
   margin: 0 20px 0 20px;
   justify-content: space-evenly;
@@ -48,7 +62,7 @@ body {
   flex-wrap: nowrap;
 }
 
-.enlaces .navPrincipal .link {
+.link {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -58,10 +72,7 @@ body {
 
 .navPrincipal{
   align-items: center;
-}
-
-.enlaces .navPrincipal {
-  list-style: none;
+   list-style: none;
 }
 
 .iconos{
@@ -75,7 +86,6 @@ body {
 }
 
 .submenuEquipo {
-  display: none;
   text-decoration: none;
   color: #fff;
   padding: 10px;
@@ -85,10 +95,6 @@ body {
   font-weight: normal;
 }
 
-.submenuEquipo:hover{
-display: block;
-}
-
 .submenuEquipo:hover, .navPrincipal:hover {
   background-color: #663391;
 }
@@ -96,16 +102,25 @@ display: block;
 
  .navPrincipal {
   width: 300px;
-  max-width: 20%;
+  max-width: 30%;
   text-align: center;
+}
+
+.submenuEquipo {
+  display: none;
+}
+
+.submenu:hover .submenuEquipo {
+display: flex;
+flex-direction: column;
 }
 
 .submenuEquipo {
   height: 40px;
 }
 
-.submenuContent {
-  height: 400px;
+.submenuContent{
+  max-height: 500px;
   text-align: left;
   overflow-y: scroll;
 }
