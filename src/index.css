@@ -100,9 +100,8 @@ body {
 .submenuEquipo:hover, .navPrincipal:hover {
   background-color: #663391;
 }
-/* FIX MENU*/
 
- .navPrincipal {
+.navPrincipal {
   width: 300px;
   max-width: 30%;
   text-align: center;
