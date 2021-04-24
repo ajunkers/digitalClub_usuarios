@@ -34,6 +34,7 @@ article{
 
 .mas{
   align-self: flex-end;
+  height: 35px;
   width: 120px;
   padding: 5px;
   background-color: #A7062E;
@@ -58,4 +59,17 @@ p{
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 90%;
+}
+
+.actualizado {
+  line-height: 35px;
+  color: #AFAFAF;
+  align-self: flex-start;
+  font-size: 12px;
+}
+
+.prueba{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }

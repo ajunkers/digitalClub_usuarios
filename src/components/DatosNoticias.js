@@ -11,12 +11,15 @@ const DatosNoticia = () => {
     pedirNoticia(url);
   }, [url, pedirNoticia]);
 
+  const fecha = datosNoticia["updated_at"].split("T");
+
   return (
     datosNoticia ?
       <>
         <h1 className="noticias">{datosNoticia.titulo}</h1>
         <img src={datosNoticia.img ? datosNoticia.img.link : ""} alt={datosNoticia.img ? datosNoticia.img.alt : ""} className="imagen" />
         <p className="texto">{datosNoticia.texto ? datosNoticia.texto : ""}</p>
+        <span className="actualizado">Última actualización: {fecha[0]}</span>
       </>
       : <></>
   )
