@@ -1,8 +1,19 @@
+import { useHistory } from "react-router";
+import "../estilos/noEncontrado.css";
 
-const NoEncontrada = () => (
-  <div className="contenido">
-    <h1>PAGINA NO ENCONTRADA</h1>
-  </div>
-);
+const NoEncontrada = () => {
+
+  let history = useHistory();
+  const volver = e => {
+    history.push("/");
+  };
+  return (
+    <div className="contenido notFound">
+      <h1 className="noEncontrado">PÁGINA NO ENCONTRADA</h1>
+
+      <span className="noEncontradoVolver" onClick={volver}>Volver</span>
+    </div>
+  );
+};
 
 export default NoEncontrada;

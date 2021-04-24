@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+.contenido, main {
+  min-height: 80vh;
+}
+
 .contenido {
   display: flex;
   flex-direction: column;
@@ -15,6 +19,7 @@ body {
 }
 
 .pie , .navegacion {
+  height: 10vh;
   display: flex;
 }
 
@@ -100,9 +105,8 @@ body {
 .submenuEquipo:hover, .navPrincipal:hover {
   background-color: #663391;
 }
-/* FIX MENU*/
 
- .navPrincipal {
+.navPrincipal {
   width: 300px;
   max-width: 30%;
   text-align: center;
