@@ -130,3 +130,23 @@ body {
   text-align: left;
   overflow-y: auto;
 }
+
+.enlaceLogo {
+  display: flex;
+  flex-flow: row;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.enlaceLogo span {
+  width: 65px;
+  flex-wrap: wrap;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+}

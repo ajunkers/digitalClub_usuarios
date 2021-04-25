@@ -11,7 +11,7 @@ const DatosNoticia = () => {
     pedirNoticia(url);
   }, [url, pedirNoticia]);
 
-  const fecha = datosNoticia["updated_at"].split("T");
+  const fecha = datosNoticia ? datosNoticia["updated_at"].split("T") : <></>;
 
   return (
     datosNoticia ?

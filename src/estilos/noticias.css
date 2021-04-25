@@ -73,3 +73,14 @@ p{
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 500px) {
+  .imagen {
+    width: 90%;
+  }
+
+  article {
+    margin: 0 10px 0 10px;
+    width: 90vw;
+  }
+}

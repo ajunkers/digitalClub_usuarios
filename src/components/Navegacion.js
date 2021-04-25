@@ -6,7 +6,10 @@ const Navegacion = () => {
   const { equipos } = useContext(EquiposContext);
   return (
     <nav className="navegacion">
-      <a href="/"><img src="../logo.png" className="logo" alt="logo Club" /></a>
+      <a href="/" className="enlaceLogo">
+        <img src="../logo.png" className="logo" alt="logo Club" />
+        <span>Digital Club</span>
+      </a>
 
       <span className="enlaces">
 
