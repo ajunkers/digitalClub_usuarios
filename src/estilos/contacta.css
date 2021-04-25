@@ -1,0 +1,30 @@
+.mapa {
+  border: 0;
+  height: 300px;
+  width: 400px;
+  margin: 40px;
+}
+
+.contacta {
+  background-color: #A7062E;
+  border-radius: 10px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.datos {
+  margin: 30px;
+  padding: 40px;
+  background-color: #A7062E;
+  color: #fff;
+  border-radius: 10px;
+}
+section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+}

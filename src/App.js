@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import NoticiasContext from "./context/NoticiasContext";
 import EquiposContext from "./context/EquiposContext";
 import NoEncontrada from "./paginas/NoEncntrada";
+import Contacta from "./paginas/contacta";
 import { useEffect } from "react";
 import useFetch from "./hooks/useFetch";
 
@@ -44,6 +45,9 @@ function App() {
               </Route>
               <Route path="/noticias" >
                 <Redirect to="/principal" />
+              </Route>
+              <Route path="/contacta" >
+                <Contacta />
               </Route>
               <Route path="/NotFound">
                 <NoEncontrada />

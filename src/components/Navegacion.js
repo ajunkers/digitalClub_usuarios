@@ -25,6 +25,7 @@ const Navegacion = () => {
             }
           </div>
         </span>
+        <span className="navPrincipal"><a href="/contacta" className="link">Contáctanos</a></span>
       </span>
     </nav>
   );
