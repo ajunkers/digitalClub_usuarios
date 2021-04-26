@@ -24,7 +24,7 @@ article{
   cursor: pointer;
 }
 
-.imagen{
+.imagen, .imagenNoticia{
   margin: 20px;
   max-width: 980px;
   height: auto;
@@ -72,4 +72,15 @@ p{
   width: 90%;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .imagen {
+    width: 90%;
+  }
+
+  article {
+    margin: 0 10px 0 10px;
+    width: 90vw;
+  }
 }
