@@ -72,6 +72,12 @@ td.rol, td.nombre {
   text-align: left;
 }
 
+.staff, .jugadores {
+  display: flex;
+  flex-flow: column;
+}
+
+
 @media (min-width: 980px) {
   .columnas {
     display: flex;
