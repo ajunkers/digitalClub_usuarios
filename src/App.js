@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import NoticiasContext from "./context/NoticiasContext";
 import EquiposContext from "./context/EquiposContext";
 import NoEncontrada from "./paginas/NoEncntrada";
-import Contacta from "./paginas/contacta";
+import Contacta from "./paginas/Contacta";
 import { useEffect } from "react";
 import useFetch from "./hooks/useFetch";
 
