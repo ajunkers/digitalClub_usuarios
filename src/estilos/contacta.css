@@ -15,7 +15,7 @@
   font-weight: 700;
 }
 
-.datos {
+.datosContacto {
   margin: 30px;
   padding: 40px;
   background-color: #A7062E;
@@ -27,4 +27,10 @@ section {
   justify-content: center;
   display: flex;
   flex-flow: row;
+}
+
+.dts {
+  display: block;
+  text-decoration: none;
+  color: #fff;
 }

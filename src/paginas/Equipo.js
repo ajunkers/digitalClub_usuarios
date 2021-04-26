@@ -28,8 +28,8 @@ const Equipo = () => {
           {equipo ?
             <article>
               <h1 className="equipo">{equipo.nombre}</h1>
-              <section className="columnas colStaff">
-                <div className="columna">
+              <section className="columnas">
+                <div className="columna colStaff">
                   <img className="imgEquipo" src={equipo.img ? equipo.img.link : "../placeholder.png"} alt={equipo.img ? equipo.img.alt : "imagen vacia"} />
                   <ListaStaff />
                 </div>
